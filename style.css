@@ -1,0 +1,167 @@
+.logo{
+    margin-top: 2vh;
+    margin-left: 5vh;
+}
+
+.navigation_bar{
+    display: block;
+    height: 11vh;
+}
+
+.nav_left{
+    /* display: ; */
+    float: left;
+}
+
+.nav_right{
+    float: right;
+    margin-top: 3vh;
+    margin-right: 4vh;
+    font-size: 0.95vmax;
+    font-family: 'Yahoo Sans', Arial;
+    /* font-weight: bold; */
+}
+
+#nav1, #nav2, #nav3{
+    padding-right: 3vh;
+    color: #188FFF;
+    text-decoration: none;
+}
+
+.full_screen{
+    margin: 0;
+    padding: 0;
+}
+
+.img_ad{
+    margin: 0;
+    padding: 0;
+    width: 210vh;
+}
+.bg_content
+{
+    font-size: 25px;
+}
+.full_screen
+{
+    padding: 50px 0  0 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container_left
+{
+    padding: 10px 10px 10px 10px;
+    height: 100px;
+    width: 630px;
+}
+
+.container{
+    height: 70vh;
+    width: 55vh;
+    box-shadow: 0 4px 8px 0 rgba(90, 89, 89, 0.2), 0 6px 20px 0 rgba(168, 166, 166, 0.19);
+    border-radius: 1px;
+    /* position: absolute; */
+    float:right;
+    margin-top: 3vh;
+    margin-right: 15vh;
+    text-align: center;
+}
+
+.container_logo{
+    margin-top: 5vh;    
+}
+
+.container_header{
+    font-size: 3.3vh;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 6vh;
+    margin-bottom: 0;
+}
+
+.container_sub-header{
+    font-size: 2.6vh;
+    margin-top: 0.5vh;
+}
+
+#login_id{
+    margin-top: 7vh;
+    border: 0;
+    font-size: 2.5vh;
+    width: fit-content;
+    text-align: left;
+}
+
+hr{
+    width: 45vh;
+}
+
+.next{
+    margin-top: 3vh;
+    width: 45vh;
+    height: 7vh;
+    border: 0;
+    border-radius: 25px;
+    background-color: #188FFF;
+    color: white;
+    font-size: 3vh;
+}
+
+.next:hover{
+    background-color: #0F69FF;
+}
+
+#checkbox{
+    cursor: pointer;
+    margin-top: 3vh;
+    margin-left: 0vh;
+}
+
+label{
+    color: #188FFF;
+    cursor: pointer;
+    font-size: 2.7vh;
+    margin-top: 3vh;
+}
+#placeholder_text
+{
+    color: black;
+    margin: 0;
+    font-size: 2vh;
+    position: absolute;
+}
+input{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+#forgot_uname{
+    text-decoration: none;
+    color: #188FFF;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    margin-top: 3vh;
+    margin-left: 2.3vh;
+    font-size: 2.7vh;
+}
+
+#forgot_uname:hover{
+    color: #003ABC;
+}
+
+.create_acc{
+    margin-top: 3vh;
+    width: 45vh;
+    height: 7vh;
+    border: 0;
+    border-radius: 25px;
+    background-color: white;
+    color: #188FFF;
+    border: 1px solid #188FFF;
+    font-size: 2.8vh;
+}
+
+.create_acc:hover{
+    color: #094ee0;
+    border-color: #094ee0;
+}
